@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: cartonsix;
+    src: url(img/cartonsix.ttf);
+}
+
+
+
+
+/*_________ CABEÇALHO __________*/
+
+body {
+    background-image: url(img/fundoatualizado.png);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+span {
+    background-color: #8800ff;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 20px;
+}
+
+nav {
+
+    font-size: 18px;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #dbf1fa;
+    margin: 1.5em;
+    padding: 40px;
+    border: 5px solid #dbf1fa;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.logoheader {
+    width: 50vh;
+    margin-left: 38%;
+    margin-right: 50%;
+    margin-bottom: 20px;
+}
+
+
+/*_______OPENHOME_______*/
+
+.openhome {
+    width: 100vw;
+    height: 60vw;
+    background: url(img/capahome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+/*________ BOTÕES PÁGINAS _______*/
+
+.quem {
+    color: black;
+    background-color: #f85909;
+    border: 5px;
+    border-radius: 10px;
+
+}
+
+.ilhaF {
+    color: black;
+    background-color: red;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.ilhaM {
+    color: black;
+    background-color: #FFB200;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.ilhaA {
+    color: black;
+    background-color: #8F00FC;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.ilhaHo {
+    color: black;
+    background-color: #01a6ff;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.ilhaHar {
+    color: black;
+    background-color: #00F873;
+    border: 5px;
+    border-radius: 10px;
+}
+
+
+
+
+/* _____ Missão, Visão e Valores ______*/
+
+.misvisval {
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+    padding-top: 1%;
+    animation: gradient 10s infinite alternate;
+    background: linear-gradient(45deg, #800080, #8800ff, #33005f, #682350, #c279fa) no-repeat;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+
+}
+
+.misvisval h2 {
+    font-family: cartonsix;
+    font-size: 2em;
+    color: #f06cbd;
+}
+
+.Mis {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dbf1fa;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+.Vis {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dbf1fa;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+.Val {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dbf1fa;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+
+/*__________ CARDS das ILHAS _________*/
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    /* margin-top: 10%; Não mexer! */
+    overflow: hidden;
+}
+
+.card h3 {
+    font-family: arial;
+    font-weight: 900;
+    font-size: 2em;
+    color: #f7a0fa;
+    margin-left: 3%;
+}
+
+.card a {
+    width: 350px;
+    height: 300px;
+}
+
+    .card:hover{
+        opacity: 0.5;
+    }
+
+
+
+/*_______ FOOTER _______*/
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: #641749;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.logofooter {
+    margin-bottom: 0;
+    width: 10%;
+}
+
+.logofooter:hover {
+    opacity: 0.5;
+    scroll-behavior: smooth;
+}
